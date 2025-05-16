@@ -22,7 +22,7 @@ function showSectionById(id){
     // hide all the section
     // document.getElementById('add-money-form').classList.add('hidden');
      document.getElementById('add-home').classList.add('hidden');
-      document.getElementById('add-history').classList.add('hidden');
+      document.getElementById('transection-section').classList.add('hidden');
       // show the section with the provide id as parameter
       document.getElementById(id).classList.remove('hidden')
 }

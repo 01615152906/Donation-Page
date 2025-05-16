@@ -8,7 +8,7 @@ showSectionById('add-home' );
 document.getElementById('show-History')
 .addEventListener('click',function(){
 // console.log('show add money button clicked')
-showSectionById('add-history' );
+showSectionById('transection-section' );
 
 });
 
