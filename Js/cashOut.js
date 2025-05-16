@@ -11,7 +11,7 @@ const balance = getTextFieldValueById('cashOut');
 console.log(balance,cashOut);
 
 
-// console.log('balance here', balance)
+console.log('balance here', balance)
 
 const newBalance = balance - cashOut;
 document.getElementById('cashOut').innerText = newBalance;
