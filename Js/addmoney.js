@@ -77,7 +77,15 @@ document.getElementById('addMoney-ammount').innerText = newBalance;
 
 // add to transection history,
  const p = document.createElement('p');
- p.innerText = `added:${addMoney} Tk. New belance: ${newBalance};`
+ p.classList.add('bg-yellow-500');
+ const now = new Date();
+ p.innerHTML = `<h4 class = "text-2xl fon-bold "> Cash Out </h4>
+<p> ${addMoney} Box Office News!Donate for Flood at Noakhali, Bangladesh ${newBalance} </p>
+<p> ${now}</p>
+
+ `
+ 
+
  console.log(p);
 
 

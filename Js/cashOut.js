@@ -28,7 +28,7 @@ const now = new Date();
 
 div.innerHTML = `
 <h4 class = "text-2xl fon-bold "> Cash Out </h4>
-<p> ${cashOut} withdraw. new balance ${newBalance} </p>
+<p> ${cashOut} Box Office News!Donate for Flood at Noakhali, Bangladesh ${newBalance} </p>
 <p> ${now}</p>
 
 `
